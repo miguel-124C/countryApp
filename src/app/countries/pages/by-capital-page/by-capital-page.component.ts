@@ -12,7 +12,7 @@ export class ByCapitalPageComponent implements OnInit {
 
   public countries: Country[] = [];
   public isLoading: boolean = false;
-  public termSearch?: string;
+  public termSearch: string = '';
   
   constructor(private countryService: CountriesService){}
   
